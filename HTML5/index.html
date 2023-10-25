@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML CSS PRACTICE</title>
+        <!-- The below line 5 to 11 are for enhancing the font. Did this from google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <style>
+            *{font-family: 'Josefin Sans', sans-serif;}
+        </style>
+    </head>
+    <body>
+        <div>
+            this is my name
+        </div>
+        <h1 style="color:#0063B2FF ; background-color:#9CC3D5FF ; text-align: center ; padding: 10 0 ; text-transform: capitalize;">Welcome to html css Course 2020</h1>
+        <!-- These color codes we can copy from flatuicolors.com -->
+        <h2>This is my first heading</h2> <!-- These are headings -->
+        <h3>This is my second heading</h3> <!-- These are headings -->
+        <h4>This is my third heading</h4> <!-- These are headings -->
+        <h5>This is my fourth heading</h5> <!-- These are headings -->
+        <h6>This is my fifth heading</h6> <!-- These are headings -->
+        <!-- The first heading will be largest then gradually the font decreases -->
+
+        <!-- <b></b> -- Bold text
+        <strong></strong> -- Important text
+        <i></i> -- Italic text
+        <u></u> -- underline a text
+        <em></em> -- Emphasized text
+        <mark></mark> -- Marked text
+        <small></small> -- Small text
+        <del></del> -- Deleted text
+        <sub></sub> -- Subscript text
+        <sup></sup> -- Superscript text -->
+
+        <!-- Now comes the text formatting -->
+        <p>My name is <strong><mark>Vedansh Gupta</mark></strong>. I'm a <i><u>frontend developer</u></i> </p>
+        <p>H<sub>2</sub>O</p> <!-- To display the formula of water-->
+        <p>x<sup>2</sup> + y<sup>2</sup></p> <!-- To display a mathematical algebraic equation -->
+
+        <hr> <!-- This is the horizontal line tag. It will create a straight horz line just above the button in this case-->
+
+        <!-- HTML Links -->
+        <button>
+        <a href="https://www.google.com/" target="_blank" style="text-decoration:none;" title="Click to visit Google baba">!!!___Google baba___!!!</a>
+        <!-- Above we wrote text decoration:none in the style attribute bczthe anchor tag automatically underlines the text written inside the anchor tag -->
+        
+        <!-- The above tag is called the anchor tag && href is hyper reference or header reference -->
+        <!-- The target="_blank" written there means that the google baba will open on a new tab -->
+        <!-- By default the value target is "self" which open the hyperlink on that same tab only -->
+        </button>
+        <br> <br> <!-- This tag is used for line breaks. So here after 2 line breaks the image will be displayed -->
+
+        <!-- HTML Images -->
+        <img src="html5css3.png" width="250" height="250" title="This is a webcam" alt="HTMLCSSpic">
+        <!-- The above alt attr is used when suppose the img url is given wrong then it will display the given text-->
+
+        <br><br><br><br><br>
+
+        <!-- HTML Tables -->
+        <center>
+        <table border="2" cellpadding="10" cellspacing="1" style="text-align:center;">
+            <caption>Student details</caption>
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Course</th>
+                <th>Degree</th>
+                <th>Roll No.</th>
+            </tr>
+            <tr>
+                <td>Vedansh Gupta</td>
+                <td>BTech</td>
+                <td>Graduate</td>
+                <td>2001640310118</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Vedansh Gupta</td>
+                <td>BTech</td>
+                <td>Graduate</td>
+                <td>2001640310118</td>
+            </tr>
+            <tr>
+                <td>Vedansh Gupta</td>
+                <td>BTech</td>
+                <td>Graduate</td>
+                <td>2001640310118</td>
+            </tr>
+            <tr>
+                <td>Vedansh Gupta</td>
+                <td>BTech</td>
+                <td>Graduate</td>
+                <td>2001640310118</td>
+            </tr>
+            <tr>
+                <td>Vedansh Gupta</td>
+                <td>BTech</td>
+                <td>Graduate</td>
+                <td>2001640310118</td>
+            </tr>
+        </table>
+    </center>
+        <!-- By using the above center tag we can align the whole table to the center of the webpage-->
+        <!-- The <tr> tag means the table row i.e. how much table rows -->
+        <!-- The <th> tag means the table headings -->
+        <!-- The <td> tag means the table data -->
+
+        <br><br><br><br><br>
+
+        <!-- HTML Lists -->
+        <p>List of shoppings</p>
+        <ul type="squares">
+            <li>Laptop</li>
+            <li>Bag</li>
+            <li>Pen</li>
+            <li>Notebook</li>
+        </ul>
+        <br><br>
+
+        <p>List of peoples</p>
+        <ol type="A" start="5">
+            <li>Deval</li>
+            <li>Aditi</li>
+            <li>Vedansh</li>
+            <li>Krishna</li>
+        </ol>
+
+        <br><br><br><br><br>
+
+        <!-- HTML Forms -->
+        <h3>Contact Form</h3>
+        <form>
+            <label>Username:</label><br>
+            <input type="text" name="username" placeholder="Enter your username"> <br><br>
+            <label>Password:</label><br>
+            <input type="password" name="pwd" placeholder="Enter your password"> <br><br>
+            <label>Email ID:</label><br>
+            <input type="email" name="email" placeholder="Enter your Email ID"> <br><br>
+            <label>Mobile No.:</label><br>
+            <input type="text" name="mobile" placeholder="Enter your Mobile No."> <br><br>
+
+            <!-- Plan selection -->
+            <select>
+                <option>Select ur plan</option>
+                <option value="personal">personal</option>
+                <option value="business">business</option>
+                <option value="premium">premium</option>
+            </select> <br><br>
+
+            <textarea cols="30" rows="5"></textarea>
+
+            <p>Select your gender</p>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Not to prefer<br><br>
+
+            <p>Please read all the instructions carefully</p>
+            <input type="checkbox"> Yes I read it all.<br><br>
+            <input type="submit" name="submit" value="Ho gaya">
+
+        </form>
+
+        <br><br><br><br><br>
+
+        <p>This not the best course available on youtube</p>
+    </body>
+</html>

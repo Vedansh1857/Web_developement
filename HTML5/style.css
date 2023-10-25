@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* #fontCss{
+    font-family: 'Noto Serif', serif;
+    font-variant: small-caps;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: lighter;
+} */
+
+#textCss{
+    font-family: 'Noto Serif', serif;
+    color: red;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    /* direction: ltr; */
+    /* text-indent: 10px; */
+    /* Used for paragraph spacing */
+    text-align: center;
+    text-transform: uppercase;
+}
